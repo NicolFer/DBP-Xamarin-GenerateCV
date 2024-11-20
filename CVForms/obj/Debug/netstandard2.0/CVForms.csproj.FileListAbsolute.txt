@@ -1,0 +1,15 @@
+C:\Users\Nicol\source\repos\CVForms\CVForms\bin\Debug\netstandard2.0\CVForms.deps.json
+C:\Users\Nicol\source\repos\CVForms\CVForms\bin\Debug\netstandard2.0\CVForms.dll
+C:\Users\Nicol\source\repos\CVForms\CVForms\bin\Debug\netstandard2.0\ref\CVForms.dll
+C:\Users\Nicol\source\repos\CVForms\CVForms\bin\Debug\netstandard2.0\CVForms.pdb
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.csproj.AssemblyReference.cache
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.AssemblyInfoInputs.cache
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.AssemblyInfo.cs
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.dll
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\refint\CVForms.dll
+C:\Users\Nicol\source\repos\CVForms\CVForms\obj\Debug\netstandard2.0\CVForms.pdb

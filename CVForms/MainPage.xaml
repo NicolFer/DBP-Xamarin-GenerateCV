@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVForms.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Título -->
+            <Label Text="Crear tu CV" FontSize="32" HorizontalOptions="Center" />
+
+            <!-- Nombre -->
+            <Label Text="Nombre Completo:" />
+            <Entry x:Name="entryNombre" Placeholder="Ingresa tu nombre" />
+
+            <!-- Trabajo esperado -->
+            <Label Text="Trabajo esperado:" />
+            <Entry x:Name="entryTrabajoEsperado" Placeholder="Ingresa el trabajo que deseas" />
+
+            <!-- Sobre mí -->
+            <Label Text="Sobre mí:" />
+            <Editor x:Name="editorSobreMi" Placeholder="Describe algo sobre ti" HeightRequest="100"/>
+
+            <!-- Experiencia Laboral -->
+            <Label Text="Experiencia laboral:" />
+            <Button Text="Agregar experiencia" BackgroundColor="#D1A6D3" Clicked="OnAddExperienceClicked" />
+            <StackLayout x:Name="experienciaStack">
+                <!-- Las experiencias laborales se agregarán aquí dinámicamente -->
+            </StackLayout>
+
+            <!-- Formación Académica -->
+            <Label Text="Formación Académica:" />
+            <Button Text="Agregar formación" BackgroundColor="#D1A6D3" Clicked="OnAddEducationClicked" />
+            <StackLayout x:Name="formacionStack">
+                <!-- Las formaciones académicas se agregarán aquí dinámicamente -->
+            </StackLayout>
+
+            <!-- Contacto -->
+            <Label Text="Correo electrónico:" />
+            <Entry x:Name="entryCorreo" Placeholder="Ingresa tu correo" Keyboard="Email" />
+
+            <Label Text="Teléfono:" />
+            <Entry x:Name="entryTelefono" Placeholder="Ingresa tu teléfono" Keyboard="Numeric" />
+
+            <Label Text="Dirección:" />
+            <Entry x:Name="entryDireccion" Placeholder="Ingresa tu dirección" />
+
+            <!-- Habilidades -->
+            <Label Text="Habilidades:" />
+            <Button Text="Agregar habilidad" BackgroundColor="#D1A6D3" Clicked="OnAddSkillClicked" />
+            <StackLayout x:Name="habilidadesStack">
+                <!-- Las habilidades se agregarán aquí dinámicamente -->
+            </StackLayout>
+
+            <!-- Idiomas -->
+            <Label Text="Idiomas:" />
+            <Button Text="Agregar idioma" BackgroundColor="#D1A6D3" Clicked="OnAddLanguageClicked" />
+            <StackLayout x:Name="idiomasStack">
+                <!-- Los idiomas se agregarán aquí dinámicamente -->
+            </StackLayout>
+
+            <!-- Otros -->
+            <Label Text="Otros:" />
+            <Button Text="Agregar sección" BackgroundColor="#D1A6D3" Clicked="OnAddOtherClicked" />
+            <StackLayout x:Name="otrosStack">
+                <!-- Otros apartados se agregarán aquí dinámicamente -->
+            </StackLayout>
+
+            <!-- Botón de guardar -->
+            <Button Text="Generar CV" BackgroundColor="#9C27B0" Clicked="OnGenerateCVClicked" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
